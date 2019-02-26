@@ -6,12 +6,12 @@ prs:
     description: "prs 用户API在线接口文档"
     enable: true
     version: "1.0.0"
+    host: user
   redis:
     accept-package: com.prs
   token:
     expire: 604800000
     refresh: 604800000
-    keyPrefix: "LOGIN_HASH_TABLE"
 
 spring:
   datasource:
