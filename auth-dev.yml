@@ -6,7 +6,6 @@ prs:
     description: "prs 用户API在线接口文档"
     enable: true
     version: "1.0.0"
-    host: user
   redis:
     accept-package: com.prs
   token:
